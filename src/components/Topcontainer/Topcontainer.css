@@ -1,0 +1,33 @@
+.topcontainer{
+   background: url(../../Assets/Background.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+   }
+
+   /* mobile screen */
+  @media screen and (max-width: 400px) {
+
+   .topcontainer{
+      background: url(../../Assets/Background.jpg);
+      background-position: center;
+      width: 750px;
+      background-size: cover;
+      box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+      }
+   
+  }
+
+  @media screen and (max-width: 671px) {
+
+   .topcontainer{
+      background: url(../../Assets/Background.jpg);
+      background-position: center;
+      width: 750px;
+      background-size: cover;
+      box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+      }
+   
+  }

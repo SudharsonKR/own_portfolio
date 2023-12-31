@@ -1,0 +1,85 @@
+.topcontent{
+    color: #ffffff;
+  }
+
+.topcontent_container{
+    position: absolute;
+    top: 400px;
+    left: 220px;
+}
+
+.topcontent_container > p{
+    letter-spacing: 1px;
+    text-align: left;
+    padding-top: 20px;
+    
+}
+
+.topcontent_container > a > button{
+ margin-left: 5px;
+ border-radius: 3px;
+ text-align: center;
+margin-top: 30px;
+}
+
+.topcontent_container > h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.downloadbtn{
+    background-color: #f64c08;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.workbtn{
+    background: transparent;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    border-color: #ffffff;
+    }
+
+    button:hover{
+        background-color: #ffffff;
+        color: #000000;
+        font-weight: 600;
+    }
+
+    /* mobile screen */
+   @media screen and (max-width: 400px) {
+
+    .topcontent_container{
+        position: absolute;
+        top: 200px;
+        left: 100px;
+    }
+
+    .topcontent_container > h1{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+   }
+
+   @media screen and (max-width: 682px) {
+
+    .topcontent_container{
+        position: absolute;
+        top: 400px;
+        left: 200px;
+    }
+
+    .topcontent_container > h1{
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+   }

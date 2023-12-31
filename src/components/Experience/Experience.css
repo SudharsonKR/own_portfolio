@@ -1,0 +1,28 @@
+.experience{
+    border: 3px solid blue;
+    margin: 20px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    box-shadow: 3px 3px;
+}
+
+.experience > ul{
+    list-style: none;
+    align-content: left;
+}
+
+.experience > ul > li > h4{
+    font-family:'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    color: #9acd32;
+    font-size: larger;
+}
+
+/* mobile screen */
+@media screen and (max-width: 400px) {
+    
+}

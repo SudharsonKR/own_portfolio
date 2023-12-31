@@ -1,0 +1,118 @@
+.header{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    background-color: #000000;
+    top:0;
+    position: sticky;
+    z-index: 1;
+}
+
+.header_left{
+    flex: 0.4;
+}
+
+.header_left > h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+.header_right{
+    display: flex;
+    flex: 0.6;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header_right > a > h4{
+   font-size: 18px;
+   cursor: pointer;
+   transition: transform 200ms ease-in-out;
+}
+
+.header_right > a > h4:hover{
+   transform: scale(1.09);
+   background-color: #008000;
+   padding: 5px 20px;
+   border-radius: 10px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  cursor: pointer;
+ }
+
+ /* mobile screen */
+
+@media screen and (max-width: 400px){
+    
+    .header{        
+        width: auto;
+        top:0;
+        position: sticky;
+        z-index: 1;
+       
+    }
+
+    .header_left > h1{
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 1px;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .header_right > a > h4{
+       cursor: pointer;
+       transition: transform 200ms ease-in-out;
+       
+     }
+
+     .header_right > a > h4:hover{
+        transform: scale(1.09);
+        background-color: #008000;
+        padding: 5px 20px;
+        border-radius: 10px;
+       letter-spacing: 1px;
+       font-size: 18px;
+       cursor: pointer;
+      }
+}
+
+@media screen and (max-width: 685px){
+    
+    .header{        
+        width: 30rem;
+        top:0;
+        position: sticky;
+        z-index: 1;
+       
+    }
+
+    .header_left > h1{
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 1px;
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .header_right > a > h4{
+       cursor: pointer;
+       transition: transform 200ms ease-in-out;
+       font-size: 12px;
+       
+     }
+
+     .header_right > a > h4:hover{
+        transform: scale(1.09);
+        background-color: #008000;
+        padding: 5px 20px;
+        border-radius: 10px;
+       letter-spacing: 1px;
+       font-size: 18px;
+       cursor: pointer;
+      }
+
+    
+}

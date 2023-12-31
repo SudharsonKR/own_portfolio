@@ -1,0 +1,116 @@
+.skillContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+    padding-top: 30px;
+}
+
+.skillContainer_text{
+    color: white;
+    flex: 0.6;
+    max-width: 500px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.skillContainer_text>h2{
+font-size: 30px;
+}
+
+.skillContainer_image{
+    flex: 0.4;
+    text-align: center;
+  margin-right: 150px;
+}
+
+.skillContainer_image > img{
+    border-radius: 10px;
+    width: 500px;
+}
+
+.skillContainer_skillset > h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.skillContainer_slider > .MuiLinearProgress-colorPrimary{
+    background-color: rgb(132, 132, 124);
+}
+
+.skillContainer_slider > span > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(221, 221, 17);
+}
+.skillContainer_skillset{
+    margin-top: 30px;
+}
+
+/* mobile screen */
+@media screen and (max-width: 400px) {
+    .skillContainer{
+        flex-direction: column;
+        align-items: center;
+        margin: 200px 0;
+        padding-top: 30px;               
+    }
+
+    .skillContainer_image{
+    margin-left: 500px;
+    }
+
+    .skillContainer_image > img{
+        border-radius: 50px;
+        width: 100vh;
+     }
+
+     .skillContainer_text{
+       width: 300px;
+     }    
+    
+}
+
+@media screen and (max-width: 800px) {
+    .skillContainer{
+        flex-direction: column;
+        align-items: center;
+        margin: 200px 0;
+        padding-top: 30px;               
+    }
+
+    .skillContainer_image{
+    margin-left: 150px;
+    }
+
+    .skillContainer_image > img{
+        border-radius: 50px;
+        width: 100vh;
+     }
+
+     .skillContainer_text{
+       width: 300px;
+     }    
+    
+}
+
+@media screen and (max-width: 800px) {
+    .skillContainer{
+        flex-direction: column;
+        align-items: center;
+        margin: 200px 0;
+        padding-top: 30px;               
+    }
+
+    .skillContainer_image{
+    margin-left: 150px;
+    }
+
+    .skillContainer_image > img{
+        border-radius: 50px;
+        width: 60vh;
+     }
+
+     .skillContainer_text{
+       width: 300px;
+     }    
+    
+}
