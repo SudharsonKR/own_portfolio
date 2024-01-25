@@ -45,56 +45,57 @@
 
  /* mobile screen */
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 498px){
     
     .header{        
         width: auto;
+        height: auto;
         top:0;
         position: sticky;
         z-index: 1;
-       
+                
+    }
+
+    .header_right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px; 
     }
 
     .header_left > h1{
         text-align: left;
         font-family: 'Times New Roman', Times, serif;
         letter-spacing: 1px;
-        padding: 20px;
-        font-size: 20px;
+        padding: 5px;
+        font-size: 10px;
     }
 
-    .header_right > a > h4{
-       cursor: pointer;
-       transition: transform 200ms ease-in-out;
-       
-     }
+   
 
-     .header_right > a > h4:hover{
-        transform: scale(1.09);
-        background-color: #008000;
-        padding: 5px 20px;
-        border-radius: 10px;
-       letter-spacing: 1px;
-       font-size: 18px;
-       cursor: pointer;
-      }
+       
 }
 
 @media screen and (max-width: 685px){
     
     .header{        
-        width: 30rem;
+        width: 100%;
         top:0;
         position: sticky;
         z-index: 1;
        
     }
 
+    .header_right{
+        width: auto;
+        padding-left: 0;
+    }
+
     .header_left > h1{
         text-align: left;
         font-family: 'Times New Roman', Times, serif;
         letter-spacing: 1px;
-        padding: 20px;
+        width: 100%;
         font-size: 15px;
     }
 
@@ -102,6 +103,7 @@
        cursor: pointer;
        transition: transform 200ms ease-in-out;
        font-size: 12px;
+       width: auto;
        
      }
 

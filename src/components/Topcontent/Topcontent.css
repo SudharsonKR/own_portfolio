@@ -57,9 +57,10 @@ margin-top: 30px;
    @media screen and (max-width: 400px) {
 
     .topcontent_container{
-        position: absolute;
-        top: 200px;
-        left: 100px;
+        position: static;
+        top: 100px;
+        left: 50px;
+        
     }
 
     .topcontent_container > h1{
@@ -73,8 +74,8 @@ margin-top: 30px;
 
     .topcontent_container{
         position: absolute;
-        top: 400px;
-        left: 200px;
+        top: 200px;
+        left: 50px;
     }
 
     .topcontent_container > h1{

@@ -29,6 +29,8 @@ border-radius: 20px;
     width: 30px;
     height: 30px;
     transition: transform 100ms ease-in;
+    margin: 10px 10px;
+    border-radius: 10px;
 }
 
 .contact_link > a > img:hover{
@@ -37,10 +39,16 @@ border-radius: 20px;
 }
 
 /* mobile screen */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 498px) {
 
     .contact{
      width: auto;
+    }
+
+    .contact_container{
+        width: auto;
+        padding: 2px;
+        padding-inline-start: 2px;
     }
     
 }
