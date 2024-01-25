@@ -1,6 +1,7 @@
 import React from 'react'
-import { Link } from 'react-scroll'
+import { Link } from 'react-router-dom'
 import './Header.css'
+
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
             <h1>Full Stack Developer  <span style={{color:"yellow", fontSize:"small"}}>MERN</span></h1>
         </div>
         <div className='header_right'>
-<Link to='about' smooth={true} duration={500}>
+<Link to='/' smooth={true} duration={500}>
 <h4>About Me</h4>
 </Link>
 <Link to='skills' smooth={true} duration={500}>
@@ -18,7 +19,7 @@ const Header = () => {
 <Link to='projects' smooth={true} duration={500}>
 <h4>Projects</h4>
 </Link>
-<Link to='experience' smooth={true} duration={500}>
+<Link to='experiences' smooth={true} duration={500}>
 <h4>Experience</h4>
 </Link>
 <Link to='contact' smooth={true} duration={500}>
