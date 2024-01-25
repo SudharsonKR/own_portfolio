@@ -33,10 +33,9 @@ font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
 }
-
-.skillContainer_slider > .MuiLinearProgress-colorPrimary{
+/* .skillContainer_slider > .MuiLinearProgress-colorPrimary{
     background-color: rgb(132, 132, 124);
-}
+} */
 
 .skillContainer_slider > span > .css-5xe99f-MuiLinearProgress-bar1{
     background-color: rgb(221, 221, 17);

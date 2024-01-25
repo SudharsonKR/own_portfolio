@@ -1,6 +1,7 @@
 import React from 'react'
-import { Link } from 'react-scroll'
+import { Link } from 'react-router-dom'
 import './Topcontent.css'
+
 
 const Topcontent = () => {
   return (
