@@ -17,13 +17,12 @@
     display: flex;
     margin: 50px;
     flex-wrap: wrap;
-   width: 60vw;
-        
+          
 }
 
 /* mobile screen */
 @media screen and (max-width: 400px) {
     .projectContainer{
-       width: 250px;
-        }
+       width: 200px;
+       }
 }

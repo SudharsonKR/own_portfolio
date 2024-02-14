@@ -1,4 +1,12 @@
 .app{
     background-color:#252423;
-    
+    height: 100vh;    
+}
+
+@media screen and (max-width: 412px) {
+    .app{
+        height: 100vh;
+        
+    }
+
 }
