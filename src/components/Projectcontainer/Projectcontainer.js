@@ -19,6 +19,12 @@ const Projectcontainer = () => {
       description: "This project made by MERN",
       link: "https://lustrous-gingersnap-609a35.netlify.app/"
     },
+    {
+      image: require('../../Assets/E-Commerce.JPG'),
+      title: "E-Commerce",
+      description: "Mobile Stores project done by MERN",
+      link: "https://jovial-mandazi-8c6ad2.netlify.app/"
+    },
     
   ]
  

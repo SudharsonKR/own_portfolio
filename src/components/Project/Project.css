@@ -1,25 +1,32 @@
 .project > img {
-    width: 300px;
+    width: 200px;
     height: 150px;
+    
 }
 
 .project{
     margin: 20px;
     width: 300px;
     height: 150px;
-    transition: transform 500ms ease-in;    
+    transition: transform 500ms ease-in;
+    display: flex;
+    
+    
 }
 
 .project:hover{
     color: white;
-    background-color: #f64c08;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: scale(1.05);  
+    transform: scale(1.05);
+    width: fit-content;
+    text-align: center;
+    
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none;    
 }
 
