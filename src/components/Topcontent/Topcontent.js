@@ -10,12 +10,12 @@ const Topcontent = () => {
         <p>Full Stack Developer (MERN)</p>
         <p>
           I am actively seeking a MERN Stack development position. Eager and
-          skilled in Full Stack (MERN), I have successfully completed a
+          skilled in Full Stack (MERN), I have successfully achieved a
           certification course. <br />
           Excellent work efficiency and quick learning capabilities.
         </p>
         <a
-          href="https://drive.google.com/file/d/1rbfC0--x1_PpPuplba_YfffYcQ-Mgj4k/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1RJHGjQofhynj72eXPkFjRiwQf5LDX624/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
